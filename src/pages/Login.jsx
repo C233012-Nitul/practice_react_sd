@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 import reactLogo from "../assets/react.svg";
 import { FaGithub, FaGoogle, FaApple } from "react-icons/fa";
 export const Login = () => {
   return (
-    <div >
+    <div>
       <div className="flex flex-col items-center w-full">
         <FaGithub size={40} className="mt-40  " />
         <p className="text-xl font-semibold  ">Sign in to Github</p>
@@ -20,14 +20,14 @@ export const Login = () => {
           <div className="flex flex-row justify-between  ">
             <label className="text-sm font-semibold  ">PASSWORD</label>
             <a href="#" className=" text-sm text-blue-500 hover:underline">
-              forget password?
+              forget password __ ?
             </a>
           </div>
           <input
             type="password"
             className="block w-full border border-gray-400 rounded-lg px-2 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none focus:bg-blue-50"
           />
-          <button className= "hover:bg-green-800 mt-4 w-full bg-green-700 rounded-lg py-2  ">
+          <button className="hover:bg-green-800 mt-4 w-full bg-green-700 rounded-lg py-2  ">
             SIGN IN
           </button>
         </div>
@@ -50,10 +50,15 @@ export const Login = () => {
           <a href="#" className="hover:underline text-blue-500">
             Create an Account
           </a>
-          <a href="#" className="mt-2 flex hover:underline text-blue-700 flex-row justify-center">SIGN IN WITH PASSKEY</a>
+          <a
+            href="#"
+            className="mt-2 flex hover:underline text-blue-700 flex-row justify-center"
+          >
+            SIGN IN WITH PASSKEY
+          </a>
         </p>
       </div>
     </div>
-  )
-}
-export default Login
+  );
+};
+export default Login;
