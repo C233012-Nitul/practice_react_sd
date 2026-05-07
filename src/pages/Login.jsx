@@ -20,7 +20,7 @@ export const Login = () => {
           <div className="flex flex-row justify-between  ">
             <label className="text-sm font-semibold  ">PASSWORD</label>
             <a href="#" className=" text-sm text-blue-500 hover:underline">
-              forget password __ ?
+              forget password?
             </a>
           </div>
           <input
